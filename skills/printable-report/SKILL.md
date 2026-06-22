@@ -22,11 +22,15 @@ delivers: branded PDF (letter, 1–4 pages)
 renderer: reportlab
 engine: reportlab  # free, no API key
 
-quality_gate:
+done_when:
   - Every populated YAML field appears in the PDF
   - No field values are truncated
   - YAML comments are not rendered
   - Section headers match YAML structure
+
+not_done_when:
+  - Any YAML field is silently dropped or replaced with a placeholder
+  - Output is fewer than 1 page for a non-trivial input
 ```
 
 ## What it decides

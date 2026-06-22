@@ -1,0 +1,14 @@
+{
+  "skills": [
+    {
+      "name": "printable-report",
+      "path": "skills/printable-report/SKILL.md",
+      "description": "Transcoder: YAML → branded PDF — faithful rendering, every field, no terminal required"
+    },
+    {
+      "name": "podcast",
+      "path": "skills/podcast/SKILL.md",
+      "description": "Transcoder: any document → two-host MP3 briefing — River + Eric, free TTS, 3–10 min"
+    }
+  ]
+}

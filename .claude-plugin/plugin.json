@@ -1,0 +1,13 @@
+{
+  "name": "eidos-transcoders-hub",
+  "version": "1.0.0",
+  "description": "Format pipeline transforms: YAML → PDF, any document → MP3 podcast. Free renderers only — no paid API keys required.",
+  "author": {
+    "name": "Eidos AGI",
+    "url": "https://github.com/eidos-agi"
+  },
+  "homepage": "https://github.com/eidos-agi/eidos-transcoders-hub",
+  "repository": "https://github.com/eidos-agi/eidos-transcoders-hub",
+  "license": "MIT",
+  "keywords": ["transcoders", "pdf", "podcast", "agents", "eidos"]
+}

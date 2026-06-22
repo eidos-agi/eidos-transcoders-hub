@@ -14,6 +14,11 @@
       "name": "improve-transcoders-hub",
       "path": "skills/improve-transcoders-hub/SKILL.md",
       "description": "Propose improvements to the Transcoders Hub — new transcoders, renderer fixes, quality gate updates. Contract-shaped output with copy-pasteable apply steps."
+    },
+    {
+      "name": "doctor-transcoders-hub",
+      "path": "skills/doctor-transcoders-hub/SKILL.md",
+      "description": "Audit the Transcoders Hub for structural and quality problems — renderer constraints, quality gates, index alignment. Scored 0–100 with severity-ranked fixes."
     }
   ]
 }

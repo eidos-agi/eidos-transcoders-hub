@@ -64,6 +64,12 @@ description: Audit the Eidos Transcoders Hub for structural and quality problems
 - At least one `not_done_when` condition exists
 - Quality gate would catch a silent renderer failure
 
+### Repo standards (warning if missing)
+- `.claude-plugin/plugin.json` exists with `name`, `version`, `description`, `author`
+- `.codex-plugin/plugin.json` exists with `name`, `interface.displayName`, `interface.defaultPrompt`
+- `AGENTS.md` exists
+- `CHANGELOG.md` follows Keep a Changelog format (`## [Unreleased]` header, `## [x.y.z] - date` versions)
+
 ### Self-improvement (info if missing)
 - `improve-transcoders-hub` skill exists and is in the index
 - `doctor-transcoders-hub` skill exists and is in the index

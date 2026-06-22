@@ -1,0 +1,46 @@
+{
+  "name": "eidos-transcoders-hub",
+  "version": "1.0.0",
+  "description": "Format pipeline transforms for AI agents — yaml to branded PDF, any document to two-host MP3 podcast. Free/fixed-cost renderers only.",
+  "author": {
+    "name": "Eidos AGI",
+    "email": "hello@eidosagi.com",
+    "url": "https://github.com/eidos-agi"
+  },
+  "homepage": "https://github.com/eidos-agi/eidos-transcoders-hub",
+  "repository": "https://github.com/eidos-agi/eidos-transcoders-hub",
+  "license": "MIT",
+  "keywords": [
+    "transcoders",
+    "pdf",
+    "podcast",
+    "audio",
+    "agent-skills",
+    "codex",
+    "format-transform"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Eidos Transcoders Hub",
+    "shortDescription": "Turn documents into PDFs or podcasts — no paid APIs.",
+    "longDescription": "Transcoders are format pipeline transforms: feed a document in, get a different format out. Printable-report renders YAML as a branded PDF (reportlab). Podcast converts any document into a two-host MP3 briefing with River and Eric (edge-tts). Both use free, fixed-cost renderers — no API keys required.",
+    "developerName": "Eidos AGI",
+    "category": "Productivity",
+    "capabilities": [
+      "PDF Generation",
+      "Podcast Audio",
+      "Format Transform",
+      "No API Keys",
+      "Document Processing"
+    ],
+    "websiteURL": "https://github.com/eidos-agi/eidos-transcoders-hub",
+    "privacyPolicyURL": "https://github.com/eidos-agi/eidos-transcoders-hub",
+    "termsOfServiceURL": "https://github.com/eidos-agi/eidos-transcoders-hub",
+    "defaultPrompt": [
+      "Convert this YAML report to a branded PDF.",
+      "Turn this document into a podcast briefing.",
+      "Render this spec as a printable report."
+    ],
+    "brandColor": "#DC2626"
+  }
+}
